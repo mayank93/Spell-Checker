@@ -1,0 +1,28 @@
+#################################################
+# 	Simple Spell Checker			#
+#	By Mayank Gupta				#
+#	mayankrocks.1993@gmail.com		#
+#	mayank.g@students.iiit.in		#
+#################################################
+
+It use as dictionary as file "words.txt".
+Given a word, it finds whether that word is correctly spelt or not. If it is not correctly spelt, then it outputs five nearest words from the dictionary.You can use any dictionary just rename it as "words.txt" and place in same folder as "spellChecker.py".
+
+For eg:
+
+
+Example1:
+
+[mayank@mayank:Spell-Checker]$python spellChecker.py random
+The word is correctly spelt.
+
+Example2:
+
+[mayank@mayank:Spell-Checker]$python spellChecker.py mayank
+The word is incorrectly spelt. The nearest options are :
+Maya's
+Mayan
+Mayas
+Maryann
+Mayans
+[mayank@mayank:Spell-Checker]$
